@@ -22,3 +22,4 @@
 - [getServerSession in Next Auth](https://next-auth.js.org/configuration/nextjs#getServerSession)
 
 Inspired by: https://github.com/vercel/nextjs-postgres-nextauth-tailwindcss-template
+# nextjs-admin-dashboard
