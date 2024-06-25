@@ -12,7 +12,8 @@ export const authOptions: AuthOptions = {
     }),
   ],
   debug: process.env.NODE_ENV === 'development',
-  secret: process.env.NEXTAUTH_SECRET,
+  // secret: 'process.env.NEXTAUTH_SECRET',
+  secret: 'e2f178b66cfbb957edfaa629cd2ed06c508f98f0c9d48f0d25b91445b885e97a',
   callbacks:{
     async signIn(){
       return true
